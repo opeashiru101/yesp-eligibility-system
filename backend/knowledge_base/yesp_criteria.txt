@@ -1,0 +1,77 @@
+CHUNK: Programme Overview
+The Youth Entrepreneurship Support Programme (YES-P) is a Bank of Industry (BOI) initiative designed to address youth unemployment in Nigeria. The programme builds the entrepreneurial capacity of young Nigerians and provides financing pathways for viable business ideas through a structured training and assessment process. BOI is Nigeria's oldest and largest development financing institution. YES-P operates under its SME Cluster initiative, targeting youth-led small enterprises that demonstrate value-addition and innovation.
+
+CHUNK: Programme Objectives
+YES-P aims to equip young Nigerians with entrepreneurship and business management skills. It provides a structured pathway for youth-led businesses to access financing. The programme reduces youth unemployment through supported self-employment and encourages innovative and value-adding small enterprises across key sectors.
+
+CHUNK: Programme Structure and Training
+YES-P consists of two training phases followed by a financing application stage. Phase 1 is 8 weeks of online Entrepreneurship and Business Management training. Phase 2 is 5 days of in-class training across five core business modules. Phase 3 is the financing application under the BOI SME Cluster initiative. The five in-class modules are: Module 1 - The Business Idea covering value proposition and competitive landscape; Module 2 - Business Model covering revenue generation and sustainability; Module 3 - Sales and Marketing; Module 4 - Running a Successful Business covering operations, ethics, and compliance; Module 5 - Financial Planning covering budgeting, projections, and cost management.
+
+CHUNK: Nationality Requirement
+YES-P is open exclusively to Nigerian citizens. Applicants must confirm Nigerian citizenship. This is a binary disqualifying criterion — non-Nigerian citizens are not eligible for the programme under any circumstance. Citizenship is confirmed via self-declaration in the application form.
+
+CHUNK: Age Requirement
+YES-P targets Nigerian youth broadly defined as individuals between 18 and 35 years of age. Applicants outside this age range are flagged as ineligible. This is a binary disqualifying criterion. Age is verified via self-reported date of birth in the application form.
+
+CHUNK: Educational Qualification Requirement
+The minimum educational qualification required for YES-P is an Ordinary National Diploma (OND) or equivalent. Accepted qualification levels include OND, HND (Higher National Diploma), and University Degree (B.Sc., B.A., B.Eng., etc.). Higher qualification levels contribute a higher score in the assessment. Qualification is self-reported. Applicants below OND level do not meet the minimum educational requirement.
+
+CHUNK: YES-P Training Completion Requirement
+Completion of the YES-P capacity building training programme is a mandatory prerequisite for financing. The training consists of 8 weeks of online training and 5 days of in-class training. Applicants who have not completed the training are ineligible for financing consideration. This is a binary disqualifying criterion. Training completion is the most heavily weighted criterion in the assessment because financing is explicitly conditional on its completion within the YES-P programme structure.
+
+CHUNK: SME Cluster Alignment Requirement
+The applicant's business must fall within one of the BOI identified SME product clusters. Eligible cluster categories include agro-processing, manufacturing, ICT, healthcare, creative industries, construction, renewable energy, and allied services. Pure trading or reselling activities with no value-addition component are excluded and disqualified. This is a binary gate — businesses that do not align with any cluster are ineligible. Sector classification is based on the applicant's self-described business activity matched against the approved cluster list.
+
+CHUNK: Value-Addition Requirement
+The business must transform, produce, or significantly enhance a product or service — not merely resell it. Examples of eligible value-adding businesses include processing raw cassava into garri, developing a mobile application, and producing handmade leather shoes. Examples of ineligible businesses include buying and reselling phones and pure retail without production or transformation. The strength of value-addition in the applicant's business description affects their score. If weak, feedback will prompt the applicant to describe specifically how their business produces, processes, or enhances what it offers.
+
+CHUNK: Innovation and Uniqueness Requirement
+The business idea should demonstrate novelty, creativity, or a clear differentiation from existing offerings. Innovation is a scored criterion and a differentiating factor between comparable applications. If an applicant scores weakly on innovation, feedback will prompt them to articulate their unique value proposition more clearly — what makes their product or service different from what already exists in the market.
+
+CHUNK: Business Stage
+Acceptable business stages for YES-P include new pre-revenue businesses and early-stage businesses. Business ideas developed during active NYSC service are also eligible. Business stage is an informational criterion used to tailor feedback and is not a disqualifier. Financial records, audited accounts, and historical business data are outside the scope of this assessment system.
+
+CHUNK: Disqualifying Criteria
+The following are absolute disqualifiers for YES-P eligibility. If any one of these is not met, the applicant is ineligible regardless of their scores on other criteria. The disqualifying criteria are: the applicant is not a Nigerian citizen; the applicant is outside the 18 to 35 age range; the YES-P capacity building training has not been completed; the business is a pure trading or reselling activity with no value-addition; the business does not fall within any of the 40 BOI SME product clusters.
+
+CHUNK: Eligibility Scoring Framework
+The eligibility assessment scores applicants across six weighted dimensions. Nigerian Citizenship accounts for 10 percent of the total score. Age eligibility accounts for 10 percent. Educational Qualification accounts for 15 percent. YES-P Training Completion accounts for 25 percent. SME Cluster Alignment accounts for 20 percent. Value-Addition and Innovation together account for 20 percent. Training Completion carries the highest weight because financing is explicitly conditional on its completion within the YES-P programme structure.
+
+CHUNK: Score Interpretation
+Scores between 80 and 100 percent indicate the applicant is Highly Eligible and should proceed with confidence. Scores between 60 and 79 percent indicate the applicant is Likely Eligible with minor gaps that are addressable before application. Scores between 40 and 59 percent indicate the applicant is Partially Eligible with significant gaps requiring improvement. Scores between 0 and 39 percent indicate the applicant is Not Currently Eligible because one or more disqualifying criteria have not been met.
+
+CHUNK: Feedback for Citizenship Weakness
+If an applicant does not confirm Nigerian citizenship, the system feedback is: YES-P is open exclusively to Nigerian citizens. Your application indicates you may not meet the Nigerian citizenship requirement. Please confirm your citizenship status before proceeding. This is a disqualifying criterion.
+
+CHUNK: Feedback for Age Weakness
+If an applicant is outside the 18 to 35 age range, the system feedback is: YES-P targets youth between 18 and 35 years of age. Your indicated age falls outside this range, which is a disqualifying criterion for this programme.
+
+CHUNK: Feedback for Education Weakness
+If an applicant's qualification is below OND level, the system feedback is: Your stated qualification is below the minimum Ordinary National Diploma (OND) level required by YES-P. If you hold an OND, HND, or university degree, please update your qualification details to reflect this.
+
+CHUNK: Feedback for Training Completion Weakness
+If an applicant has not completed YES-P training, the system feedback is: You have not yet completed the YES-P capacity building training. This is a mandatory prerequisite — financing is not available to applicants who have not completed both the 8-week online and 5-day in-class training phases. Please complete the training before applying.
+
+CHUNK: Feedback for SME Cluster Weakness
+If an applicant's business does not align with any SME cluster, the system feedback is: Your described business activity does not clearly align with any of the BOI SME product clusters. YES-P does not finance pure trading or reselling activities. Consider whether your business involves production, processing, or transformation — if so, describe that aspect more specifically in your application.
+
+CHUNK: Feedback for Value-Addition Weakness
+If an applicant's business lacks clear value-addition, the system feedback is: Your business description does not clearly demonstrate value-addition. YES-P prioritises businesses that create or transform products and services. Describe specifically how your business produces, processes, or enhances what it offers — not just what it sells.
+
+CHUNK: Feedback for Innovation Weakness
+If an applicant's business idea lacks innovation, the system feedback is: Your business idea does not clearly differentiate itself from existing offerings. Strengthening your value proposition — what makes your product or service unique — will improve this score and strengthen your overall application.
+
+CHUNK: Agro-Processing and Food Production Clusters
+Eligible agro-processing and food production clusters include: cassava processing such as garri, flour, and starch; rice milling and parboiling; tomato processing and packaging; palm oil processing; groundnut oil processing; fruit juice and beverage production; dairy and yoghurt processing; poultry and meat processing; fish processing and smoking; flour milling and grain processing; spice, condiment, and seasoning production; confectionery, bakery, and snack production.
+
+CHUNK: Manufacturing and Fabrication Clusters
+Eligible manufacturing and fabrication clusters include: furniture making and woodwork; leather goods and footwear production; textile, tailoring, and garment production; soap and detergent manufacturing; plastics fabrication and moulding; steel and metal fabrication; aluminium fabrication including doors, windows, and roofing; paints and coatings manufacturing.
+
+CHUNK: Health, Creative, and Digital Industry Clusters
+Eligible health and personal care clusters include pharmaceutical product manufacturing, herbal and natural medicine production, and cosmetics and personal care product manufacturing. Eligible creative and digital industry clusters include software development and IT services, content creation and digital media production, fashion design and creative clothing, printing and publishing and graphic design, and film and video production and animation.
+
+CHUNK: Construction, Agriculture, and Services Clusters
+Eligible construction and technical services clusters include building materials production such as blocks and tiles, electrical installation and maintenance services, plumbing and sanitation services, and renewable energy installation such as solar panels and inverters. Eligible agriculture and allied services clusters include crop cultivation with processing or value-addition, animal husbandry covering poultry and piggery and cattle rearing, aquaculture and fish farming, and greenhouse farming. Eligible education and environment clusters include vocational and skills training services, event planning and management, waste recycling and solid waste management, and water treatment and clean water supply.
+
+CHUNK: Project Scope and Limitations
+This eligibility assessment system is an undergraduate academic project. It is grounded in eligibility criteria inspired by the BOI YES-P scheme and reflects publicly available BOI-style requirements. It does not replicate internal BOI decision-making processes, discretionary reviews, or undocumented evaluation factors. The system relies on publicly accessible policy information and does not incorporate historical approval data or real-world loan outcomes. The system uses a lightweight language model which introduces performance constraints including potential limitations in explanation depth compared to larger models. The model is not fine-tuned on financial data. The system is not designed for enterprise deployment.
