@@ -69,7 +69,7 @@ export default function ApplicationForm({ onResults, onViewHistory }) {
     }
     setLoading(true)
     try {
-      const response = await axios.post("https://yesp-backend-production.up.railway.app/", {
+      const response = await axios.post("https://yesp-backend-production.up.railway.app/assess", {
         ...form,
         age: parseInt(form.age)
       })
