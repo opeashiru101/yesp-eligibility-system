@@ -83,17 +83,17 @@ def check_disqualifiers(applicant_data: dict) -> dict:
     education = applicant_data.get("education", "").strip().lower()
     if "below ond" in education:
         forced_scores["education"] = 5
-    forced_scores["value_addition_innovation"] = min(
-        forced_scores.get("value_addition_innovation", 20), 10
-    )
-    forced_scores["sme_cluster_alignment"] = min(
-        forced_scores.get("sme_cluster_alignment", 20), 14
-    )
+        forced_scores["value_addition_innovation"] = min(
+            forced_scores.get("value_addition_innovation", 20), 10
+        )
+        forced_scores["sme_cluster_alignment"] = min(
+            forced_scores.get("sme_cluster_alignment", 20), 14
+        )
 
     # 6. Trading business check
     description_lower = description.lower()
     trading_keywords = ["buy and sell", "resell", "reselling", "buying and selling",
-                       "buying and reselling", "buy phones", "buy goods", "purchase and sell"]
+                        "buying and reselling", "buy phones", "buy goods", "purchase and sell"]
     if any(keyword in description_lower for keyword in trading_keywords):
         disqualifiers.append(
             "Your business appears to be a trading or reselling activity. "
@@ -110,11 +110,11 @@ def check_disqualifiers(applicant_data: dict) -> dict:
         "is_disqualified": is_disqualified
     }
 
+
 def build_prompt(applicant_data: dict, retrieved_chunks: list, forced_scores: dict) -> str:
     """Build the prompt that gets sent to the LLM."""
     chunks_text = "\n\n".join(retrieved_chunks)
 
-    # Tell the LLM which scores are already decided
     forced_instructions = ""
     if forced_scores:
         forced_instructions = "\nIMPORTANT — The following scores have already been determined and MUST NOT be changed:\n"
@@ -153,7 +153,7 @@ FEEDBACK:
 - Be specific — tell the applicant exactly what to do to improve, using practical real-life examples
 - Write as if you are a helpful mentor talking directly to the person, not writing a formal report
 - Keep the entire feedback to a short paragraph — do not use bullet points or headers inside the feedback
-- If the applicant is not a Nigerian citizen, start the feedback by acknowledging this clearly and kindly before giving any other advice — for example: "We noticed you indicated that you are not a Nigerian citizen. Unfortunately, the YES-P programme is only open to Nigerian citizens at this time."]
+- If the applicant is not a Nigerian citizen, start the feedback by acknowledging this clearly and kindly before giving any other advice]
 
 DISQUALIFIERS:
 [Write NONE — disqualifiers are handled separately]
@@ -225,25 +225,20 @@ def parse_response(raw_response: str) -> dict:
                 result["overall_score"] = int(score_part.split("/")[0].strip())
             except:
                 pass
-
         elif line.startswith("ELIGIBILITY BAND:"):
             result["eligibility_band"] = line.replace("ELIGIBILITY BAND:", "").strip()
-
         elif line.startswith("DIMENSION SCORES:"):
             in_dimensions = True
             in_feedback = False
             in_disqualifiers = False
-
         elif line.startswith("FEEDBACK:"):
             in_feedback = True
             in_dimensions = False
             in_disqualifiers = False
-
         elif line.startswith("DISQUALIFIERS:"):
             in_disqualifiers = True
             in_feedback = False
             in_dimensions = False
-
         elif in_dimensions and line.startswith("-"):
             try:
                 parts = line.lstrip("- ").split(":")
@@ -263,10 +258,8 @@ def parse_response(raw_response: str) -> dict:
                     result["dimension_scores"]["value_addition_innovation"] = score_val
             except:
                 pass
-
         elif in_feedback:
             feedback_lines.append(line)
-
         elif in_disqualifiers:
             disqualifier_lines.append(line)
 
@@ -276,6 +269,7 @@ def parse_response(raw_response: str) -> dict:
 
 
 def assess_applicant(applicant_data: dict) -> dict:
+    """Main function — takes applicant data, returns full assessment."""
 
     # Step 1 — Check hard disqualifiers in Python first
     disqualifier_check = check_disqualifiers(applicant_data)
@@ -294,7 +288,7 @@ def assess_applicant(applicant_data: dict) -> dict:
     # Step 4 — Parse LLM response
     result = parse_response(raw_response)
 
-    # Step 5 — Override scores with forced values (code always wins over LLM)
+    # Step 5 — Override scores with forced values
     for key, score in forced_scores.items():
         result["dimension_scores"][key] = score
 
@@ -314,7 +308,6 @@ def assess_applicant(applicant_data: dict) -> dict:
         result["overall_score"] = min(result["overall_score"], 39)
         result["eligibility_band"] = "Not Currently Eligible"
     else:
-        # Recalculate band based on final score
         total = result["overall_score"]
         if total >= 80:
             result["eligibility_band"] = "Highly Eligible"

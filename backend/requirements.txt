@@ -7,5 +7,3 @@ sentence-transformers
 openai
 python-dotenv
 requests
-langchain-huggingface
-huggingface-hub
