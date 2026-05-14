@@ -14,7 +14,7 @@ export default function History({ onBack }) {
   const [error, setError] = useState("")
 
   useEffect(() => {
-    axios.get("https://yesp-backend-production.up.railway.app")
+    axios.get("https://yesp-backend-production.up.railway.app/applications")
       .then(res => {
         setApplications(res.data)
         setLoading(false)
